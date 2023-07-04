@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+          *,body
+          {margin: 0px;
+            padding: 0px;
+        }
+          body
+          {display: flex; 
+            justify-content: center; 
+            font-family: laila; 
+            background: #be2edd;
+        }
+        
+        div
+        {width: 95%; 
+            height: 405px; 
+            overflow-y: hidden; 
+            margin-top: 80px;
+        }
+          
+            table
+            {width: 1600px; 
+                text-align: left; 
+                overflow: scroll; 
+                border-collapse: collapse; 
+                cursor: pointer;
+            }
+
+          thead
+          {color: white; 
+            text-align: center; 
+            font-size: 1.1em; 
+            padding: 10px; 
+        }
+          thead tr{background: #eb4d4b;}
+
+          th{width: 200px; 
+            height: 50px;}
+
+          tbody tr
+          {background: white;
+            border-bottom: 1px solid #ccc;
+        }
+          td
+          {width: 200px; 
+            height: 40px; 
+            text-align: center;
+        }
+
+          tbody tr:nth-child(odd) {background: #f2f2f2;}
+
+          body tr:hover
+           {background: #b8e994; 
+            color: white;
+        }
+
+          th:nth-child(1)
+          {width: 160px; 
+            height: 20px; 
+            position: absolute; 
+            z-index: 1; 
+            background: inherit; 
+            padding: 10px;
+        }
+          td:nth-child(1)
+          {box-shadow: 5px 0 3px -2px #ccc; 
+            width: 200px; 
+            position: fixed; 
+            position: absolute;
+            z-index: 1; 
+            background: inherit; 
+            padding: 10px;
+            box-sizing: border-box; 
+            text-align: center; 
+            font-weight: bold;
+            padding-left: 0px;
+            
+        }
+          td:nth-child(2){width: 200px;}
+
+            @media only screen and(max-width:700px){
+                table{width: 1000px;}
+                tbody td{width: 100px;}
+                td :nth-child(2) {width: 700px;}
+
+            }
+      </style>
+    </head>
+
+      <body>
+          <div>
+              <table>
+                  <thead>
+
+                    <tr>
+                        <th>Üniversite Adı</th><th>Bölüm</th><th>Bölüm</th><th>Puan Türü</th>
+                        <th>Kontenjan</th><th>Taban Puan</th><th>2021 Başarı Sırası</th><th>2020 B.Ş</th>
+                        <th>2019 B.Ş</th><th>2018 B.Ş</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>1</td>
+                          <td>2</td>
+                          <td>3</td>
+                          <td>4</td>
+                          <td>5</td>
+                          <td>6</td>
+                          <td>7</td>
+                          <td>8</td>
+                          <td>9</td>
+                          <td>10</td>
+                      </tr>
+
+                      
+                      <tr>
+                        <td>DPU</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        </tr>
+
+                        
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        </tr>
+                  </tbody>
+              </table>
+          </div>
+
+      </body>
+</html>
